@@ -28,7 +28,7 @@ aside img {
   height: auto;
   border: none;
   padding: 0;
-  box-shadow: 0;
+  box-shadow: none;
 }
 
 h1 {
