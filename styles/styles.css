@@ -26,6 +26,9 @@ aside {
 aside img {
   width: 200px;
   height: auto;
+  border: none;
+  padding: 0;
+  box-shadow: 0;
 }
 
 h1 {
