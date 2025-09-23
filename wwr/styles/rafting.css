@@ -23,6 +23,15 @@ header, main, footer {
   margin: 0 auto;
 }
 
+footer {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  color: white;
+}
+
 header {
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -55,8 +64,13 @@ nav a {
   color: var(--secondary-color);
 }
 
-nav, p, section, article {
+nav, p, article {
   margin: 16px;
+  padding: 16px;
+}
+
+section {
+  margin: 16px 0;
   padding: 16px;
 }
 
@@ -116,7 +130,15 @@ h1 {
 .adventure {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto 1fr;
+  justify-items: center;
   gap: 8px;
+}
+
+.adventure figure {
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .history div {
@@ -129,7 +151,7 @@ h1 {
   text-align: center;
 }
 
-.adventure img {
+.adventure figure {
   grid-column: span 1;
 }
 
@@ -139,10 +161,16 @@ h1 {
   margin: auto;
 }
 
-.adventure img {
+.adventure figure img {
   width: 100%;
   height: auto;
   margin: auto;
+}
+
+.adventure figcaption {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: var(--secondary-color);
 }
 
 .box {
