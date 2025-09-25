@@ -1,0 +1,60 @@
+<!-- 25 September 2025 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poll Form | WDD 130</title>
+  <meta name="description" content="Dallin Layton's page for learning forms">
+  <meta name="author" content="Dallin Layton">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>WDD 130 | HTML Form - User Poll
+    </h1>
+  </header>
+  <main>
+    <form>
+      <fieldset>
+        <legend>Contact Information</legend>
+        <div class="form-item">
+          <input type="text" id="fullname" name="fullname">
+          <label for="fullname"></label>
+        </div>
+        <div class="form-item">
+          <input type="email" id="useremail" name="useremail">
+          <label for="useremail"></label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Questions</legend>
+        <div class="form-item">
+          <select name="browser" id="browser">
+            <option value="chrome">Chrome</option>
+            <option value="edge">Edge</option>
+            <option value="firefox">Firefox</option>
+          </select>
+        </div>
+        <div class="form-item">
+          <div class="checkbox-container">
+            <input type="checkbox" id="pet" name="pet">
+            <label for="pet">Do you have a household pet?</label>
+          </div>
+        </div>
+        <div class="form-item">
+          <label for="feedback">List the places you have lived:</label>
+          <textarea name="feedback" id="feedback" rows="5" placeholder="Ogden Utah, Roy Utah"></textarea>
+        </div>
+      </fieldset>
+      <button type="submit">Submit Poll</button>
+    </form>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+
+</html>
