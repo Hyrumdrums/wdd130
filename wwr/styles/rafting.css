@@ -108,6 +108,11 @@ article {
 .hero article img {
   float: right;
   width: 125px;
+  margin: 10px;
+}
+
+.hero article p {
+  overflow: hidden;
 }
 
 h1 {
