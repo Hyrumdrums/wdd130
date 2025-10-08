@@ -470,3 +470,29 @@ form textarea {
   float: left;
   margin: 0 15px 10px 0;
 }
+
+.trips-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 2px solid var(--accent1-color);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.trips-table th,
+.trips-table td {
+  border-right: 1px solid var(--accent1-color);
+  border-bottom: 1px solid var(--accent1-color);
+  padding: 8px;
+}
+
+.trips-table th:last-child,
+.trips-table td:last-child {
+  border-right: none;
+}
+
+.trips-table tr:last-child th,
+.trips-table tr:last-child td {
+  border-bottom: none;
+}
