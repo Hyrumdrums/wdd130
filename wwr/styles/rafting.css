@@ -77,7 +77,6 @@ nav, p, article {
 }
 
 section {
-  /* margin: 16px 0; */
   padding: 16px;
 }
 
@@ -126,7 +125,9 @@ h1.centerize {
   position: static;
   width: auto;
   opacity: 1;
+  display: inline;
 }
+
 
 .logo {
   border-radius: 50%;
@@ -327,9 +328,6 @@ form textarea {
   transition: background-color 0.3s;
 }
 
-form button:hover {
-  background-color: var(--secondary-color);
-}
 
 .serve-images {
   display: flex;
@@ -360,18 +358,6 @@ form button:hover {
   color: var(--secondary-color);
 }
 
-.offerings-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 16px;
-}
-
-.offerings {
-  display: flex;
-  justify-content: space-between;
-  gap: 16px;
-  flex-wrap: wrap;
-}
 
 .offering {
   display: flex;
